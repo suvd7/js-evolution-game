@@ -1,0 +1,134 @@
+
+span{
+    font-size: 40px;
+    text-transform:uppercase;
+}
+
+#game-data{
+    background-color: black;
+    border: thick double #2bbbd4;
+    border-radius: 30px;
+    box-sizing: border-box;
+    padding: 20px;
+    width: 100%; 
+    height: 35%;
+}
+
+body{
+    color: aliceblue;
+    background: #000;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    height: 100vh; 
+    /* font */
+    font-family: "Jersey 10", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-transform:uppercase;
+
+}
+
+#header{
+    font-size: 70px;
+    text-transform:uppercase;
+    /* font */
+    font-family: "Jersey 10", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* scoring table on the left top side */
+#scoring-table{
+    background-color: black;
+    border: thick double #2bbbd4;
+    border-radius: 30px;
+    box-sizing: border-box;
+    padding: 20px; 
+    width: 100%; 
+    height: 65%; 
+    overflow-y: auto;
+}
+
+#draw-button{
+    background-color: #25b9de;
+    width: 60%;
+    height: 20%;
+    border-radius: 20px;
+    border:  solid #ffffff;
+    font-size: 25px;
+    font-family: inherit;
+    color: aliceblue;
+    text-transform: uppercase;
+}
+
+/* leader board on the right top side */
+#leaderboard{
+    width: 20%; 
+    height: 90%;
+    border: thick double #2bbbd4;
+    border-radius: 30px;
+    background-color: black; 
+}
+/* end pop up */
+#end-screen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#end-screen .form {
+    background: black;
+    border:thick double rgb(212, 43, 71);
+    padding: 40px 40px; 
+    border-radius: 30px;
+    text-align: center;
+}
+
+#back{
+    width: 70%;
+    font-size: 30px;
+    font-family: inherit;  
+    background-color: #cf3c5e;
+    border:  solid #21b8d3;
+    border-radius: 20px;
+    text-align: center;
+    color: inherit;
+    text-transform:uppercase;
+    margin-bottom: 20px;
+}
+
+#restart{
+    width: 70%;
+    font-size: 30px;
+    font-family: inherit;  
+    background-color: #cf3c5e;
+    border:  solid #5fc7d9;
+    border-radius: 20px;
+    text-align: center;
+    color: inherit;
+    text-transform:uppercase;
+}
+
+#tooltip{
+    color: black;
+    background: white;
+    position: absolute;
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-block; 
+    max-width: 600px;
+}

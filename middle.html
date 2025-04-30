@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Tech Evolution Game</title>
+  <link rel="stylesheet" href="middle.css">
+  <!-- the font copied from internet -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Jersey+10&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div id="header">Web prog evolution</div>
+    <div style="width: 100%; height: 100%; display: flex; gap: 15px;">
+
+        <div style="text-align: left;  width: 30%;height: 90%; ">
+            <div id="game-data">
+                <div id="playernamedisplayer"></div>
+                <div id="playerleveldisplayer"></div>
+                <div id="timerdisplay"></div>
+                <div id="score-display"></div>
+                <button id="draw-button">Draw</button>
+            </div>
+            <div id="scoring-table">
+
+            </div>
+        </div>
+        <div id="matrix" style="aspect-ratio: 1/1; border-radius: 10px;width: 50%; background-color: rgb(0, 166, 255); height: 90%; display: flex; flex-wrap: wrap;">
+        
+        </div>
+        <span></span>
+        <div id="leaderboard">
+            <div>leaderboard</div>
+                <div id="hard">hard</div>
+                <div id="medium">medium</div>
+                <div id="easy">easy</div>
+        </div>
+    </div>
+</body>
+<div id="end-screen" style="display: none;">
+    <div class="form">
+        <span>Time is over!</span>
+        <button id="back">Back to home</button>
+        <button id="restart">Restart game</button>
+    </div>
+</div>
+<script  type="module" src="middle.js" defer ></script>
+</html>
